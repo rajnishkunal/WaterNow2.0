@@ -1,0 +1,76 @@
+.StoreApp{
+    /* border: 2px solid black; */
+    overflow-x: hidden;
+    background-color: rgb(247, 243, 243);
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    margin: 20px;
+    width: 300px;
+    /* height: 350px; */
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    position: relative;
+}
+.img{
+    height: 100px;
+    width: 100px;
+}
+/* .dis{
+    visibility: hidden;
+    margin: 5px;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.5s linear;
+} */
+.dis{
+    margin: 8px;
+}
+.read-more{
+    color: rgb(151, 151, 188);
+    cursor: pointer;
+}
+/* .StoreApp:hover .dis{
+    visibility:visible;
+    opacity: 1;
+} */
+.demo-button {
+  background-color: #222;
+  border-radius: 4px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Farfetch Basis","Helvetica Neue",Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.5;
+  margin: 0;
+  max-width: none;
+  min-height: 44px;
+  min-width: 10px;
+  outline: none;
+  overflow: hidden;
+  padding: 9px 20px 8px;
+  position: relative;
+  text-align: center;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 100%;
+}
+
+.demo-button:hover,
+.demo-button:focus {
+  opacity: .75;
+}
+.nav-link{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    
+}
+.app-heading{
+    font-size: 30px;
+}
+.app-detail{
+    font-size: 20px;
+}

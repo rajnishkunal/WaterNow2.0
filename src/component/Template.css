@@ -1,0 +1,54 @@
+.template-container {
+    height: 90%;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    margin: 80px;
+    border-radius: 20px;
+    background-color: white;
+    background: rgba(255, 255, 255, 0.1);
+    color: rgb(0, 0, 0);
+}
+.template-sub-container{
+    height: 100%;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.login-image {
+    height: 100%;
+    width: 500px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.template-title{
+    font-size: 3rem;
+    padding: 20px;
+}
+.sub-heading1{
+    text-align: center;
+    font-size: 20px;
+    padding: 5px;
+}
+/* Button styles for "Signup With Google" */
+.google-signup-button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    background-color: #db4437; /* Google's brand color */
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+  }
+  
+  .google-signup-button:hover {
+    background-color: #1b22ff; /* Darken the background color on hover */
+  }
+  
+  .google-signup-button p {
+    margin: 0;
+  }
+  

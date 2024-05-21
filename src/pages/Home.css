@@ -1,0 +1,57 @@
+.Section1{
+    display: flex;
+    height: 93vh;
+    width: 100vw;
+} 
+
+.Hero-Container-Left {
+    height: 90vh;
+    width: 45%;
+}
+img{
+   height: 100%;
+   width: 100%;
+}
+/* .Hero-Container-Right{
+    height: 90vh;
+    width: 50%;
+} */
+.Hero-Container-Right h1{
+  font-size: 2.5rem;
+  text-align: center;
+}
+.Hero-Container-Right p{
+font-size: 1.5rem;
+text-align: center;
+padding-top: 20px;
+margin-right: 8rem;
+margin-left: 8rem;
+}
+/* Right container */
+.Hero-Container-Right {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Align content at the bottom */
+    align-items: center;
+}
+
+/* Button */
+.Hero-Container-Right button {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    background-color: #007bff; /* Change as needed */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 50px; /* Add margin at the bottom */
+}
+
+.Hero-Container-Right button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
+
+

@@ -1,0 +1,11 @@
+.Store{
+
+width: 98vw;
+    
+}
+.store-app-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}

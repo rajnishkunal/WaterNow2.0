@@ -1,0 +1,15 @@
+.LoginForm-Container{
+    color: black;
+}
+.signup-page-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    background: rgb(0, 0, 0);
+    /* background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(60,60,60,1) 100%); */
+    background: rgb(0,0,0);
+background: linear-gradient(180deg, rgb(194, 190, 190) 40%, rgba(87, 133, 231, 0.916) 91%);
+    height: 93vh;
+
+}
